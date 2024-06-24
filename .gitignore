@@ -1,0 +1,6 @@
+chrome
+node_modules
+.cache
+.pki
+
+screenshots/**/*.png
