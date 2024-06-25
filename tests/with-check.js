@@ -1,6 +1,6 @@
 import { check, sleep } from "k6";
 
-import { get } from "./_shared.js";
+import { get, tags } from "./_shared.js";
 
 /** @type {import("@types/k6/options").Options} */
 export const options = {
@@ -9,9 +9,7 @@ export const options = {
     { duration: "1m30s", target: 10 },
     { duration: "20s", target: 0 },
   ],
-  tags: {
-    owner: "kamontat",
-  },
+  tags,
 };
 
 export default function () {

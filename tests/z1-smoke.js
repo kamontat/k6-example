@@ -10,7 +10,7 @@ export const options = {
   vus: 3,
   duration: "1m",
   tags: {
-    owner: "kamontat",
+    ...tags,
     test_type: "z1",
     test_name: "smoke",
   },

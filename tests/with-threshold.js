@@ -15,9 +15,7 @@ export const options = {
     // must be within specified milliseconds.
     RoundtripTime: ["p(99)<1000", "p(70)<750", "avg<500", "min<300"],
   },
-  tags: {
-    owner: "kamontat",
-  },
+  tags,
 };
 
 export default function () {

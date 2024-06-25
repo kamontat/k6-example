@@ -1,17 +1,17 @@
 ## Topics
 
 1. Why K6?
-  - Load testing but Coding
+    - Load testing but Coding
 2. How to install?
-  - Luckily, I create asdf plugin `:)`
-  - Add plugin via `asdf plugin add "k6" "https://github.com/kc-workspace/asdf-k6.git"`
-  - Install via `asdf install k6 latest`
-  - Apply via `asdf global k6 latest`
+    - Luckily, I create asdf plugin `:)`
+    - Add plugin via `asdf plugin add "k6" "https://github.com/kc-workspace/asdf-k6.git"`
+    - Install via `asdf install k6 latest`
+    - Apply via `asdf global k6 latest`
 3. How to start?
-  - Create starter file by: `k6 new tests/example.js`
-  - Run file by: `k6 run tests/example.js`
+    - Create starter file by: `k6 new tests/example.js`
+    - Run file by: `k6 run tests/example.js`
 4. Output?
-  - To visualize data from our Grafana, use below command
+    - To visualize data from our Grafana, use below command
 
 ```shell
 export K6_PROMETHEUS_RW_SERVER_URL=https://prometheus-sumato.cognius.net/api/v1/write

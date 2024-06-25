@@ -9,7 +9,7 @@ export const options = {
   executor: "ramping-arrival-rate",
   stages: [{ duration: "1h", target: 50000 }],
   tags: {
-    owner: "kamontat",
+    ...tags,
     test_type: "z6",
     test_name: "breakpoint",
   },

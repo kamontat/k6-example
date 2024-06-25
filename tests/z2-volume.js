@@ -13,7 +13,7 @@ export const options = {
     { duration: "5m", target: 0 },
   ],
   tags: {
-    owner: "kamontat",
+    ...tags,
     test_type: "z2",
     test_name: "volume",
   },

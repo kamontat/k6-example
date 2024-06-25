@@ -5,6 +5,10 @@ export const endpoints = {
   k8s: "https://k6-test-server.cognius.net",
 };
 
+export const tags = {
+  owner: "kamontat",
+};
+
 /**
  * @param {keyof endpoints} key
  */
